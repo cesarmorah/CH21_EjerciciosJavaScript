@@ -72,11 +72,11 @@ console.log(mayor);
 
 //Ejercicio 2
 let arrayy = [3,5,7,1,6];
-let mayor = 0;
+let menor = 0;
 
 for (let index = 0; index < arrayy.length; index++) {
-    if (arrayy[index] > mayor) {
-        mayor = arrayy[index];
+    if (arrayy[index] > menor) {
+        menor = arrayy[index];
        
     };
     
