@@ -1,4 +1,4 @@
-// Ejercicio 1
+//*** Ejercicio 1
 
 var n1,n2,n3,n4,n5,t,mayor;
 n1 = parseInt(prompt("Número 1"));
@@ -70,7 +70,7 @@ console.log(mayor);
 // var m = MyMax(myArray);
 // console.log(m)
 
-//Ejercicio 2
+//***Ejercicio 2
 let arrayy = [3,5,7,1,6];
 let menor = 0;
 
@@ -83,4 +83,6 @@ for (let index = 0; index < arrayy.length; index++) {
     
 }
 console.log(mayor);
+
+// ***Ejercicio 3
 
