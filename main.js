@@ -1,3 +1,5 @@
+// Ejercicio 1
+
 var n1,n2,n3,n4,n5,t,mayor;
 n1 = parseInt(prompt("Número 1"));
 n2 = parseInt(prompt("Número 2"));
@@ -38,21 +40,6 @@ if (n4 > n5) {
 document.write("El mayor es "+ t);
 
 
-var arreglo = [3, 5, 7, 1, 6];
-var mayor = 0;
-
-for(i = 0; i < arreglo.lenght; i++){
-if (arreglo[i] > mayor)
-{
-mayor = arreglo[i];
-};
-}
-
-
-
-
-console.log(mayor);
-
 // opcion 2 de ejercicio 1
 
 let array = [3,5,7,1,6];
@@ -82,4 +69,18 @@ console.log(mayor);
 // var myArray = [3, 5, 7, 1, 6];
 // var m = MyMax(myArray);
 // console.log(m)
+
+//Ejercicio 2
+let arrayy = [3,5,7,1,6];
+let mayor = 0;
+
+for (let index = 0; index < arrayy.length; index++) {
+    if (arrayy[index] > mayor) {
+        mayor = arrayy[index];
+       
+    };
+    
+    
+}
+console.log(mayor);
 
