@@ -53,6 +53,18 @@ mayor = arreglo[i];
 
 console.log(mayor);
 
+// opcion 2 de ejercicio 1
+let array = [3,5,7,1,6];
+let mayor = 0;
+
+for (let index = 0; index < array.length; index++) {
+    if (array[index] > mayor) {
+        mayor = array[index];
+       
+    };
+    
+    console.log(mayor);
+}
 
 
 // function MyMax(myarr){
