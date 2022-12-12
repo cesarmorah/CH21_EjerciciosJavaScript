@@ -86,3 +86,17 @@ console.log(mayor);
 
 // ***Ejercicio 3
 
+function repetido(arrayyy) {
+    let numero = 0;
+  
+    for (let i = 0; i < arrayyy.length; i++) {
+      for (let r = 1; r < arrayyy.length; r++) {
+        if (arrayyy[i] == arrayyy[r]) {
+          numero = arrayyy[i];
+        };     
+      } 
+  
+    }
+  
+  }
+
